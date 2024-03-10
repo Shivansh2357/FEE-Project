@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <div class="header">
+		<h1>Daffodil Art Gallery</h1>
+	</div>
+    <nav class="navbar">
+        <ul class="navbar__list" id="left">
+            <li class="navbar__item"><a href="index.html" class="button1"><b>Home</b></a></li>
+            <li class="navbar__item"><a href="artist.html" class="button1"><b>Shop</b></a></li>
+            <li class="navbar__item"><a href="services.html" target="_main" class="button1"><b>Services</b></a></li>
+            <li class="navbar__item"><a href="about.html" target="_main" class="button1"><b>About Us</b></a></li>
+        </ul>
+        <ul class="navbar__list" id="right">
+            <li class="navbar__item"><a href="login.html" class="button"><b>Sign In</b></a></li>
+            <li class="navbar__item"><a href="contactus.html" class="button"><b>Contact Us</b></a></li>
+        </ul>
+    </nav>
+
+    <br>
+    <br>
+
+    <h1>OUR GLIMPSES</h1>
+
+    <!--image slider-->
+    <div class="slider-container">
+        <div class="slider" id="slider">
+            <div class="slide" style="background-image: url('welcome2.jpg');"></div>
+            <div class="slide" style="background-image: url('/images/2.webp');"></div>
+            <div class="slide" style="background-image: url('/images/5.jpg');"></div>
+            <div class="slide" style="background-image: url('/images/7.jpg');"></div>
+            <div class="slide" style="background-image: url('/images/6.jpg');"></div>
+            <div class="slide" style="background-image: url('/images/8.1.jpg');"></div>
+            <div class="slide" style="background-image: url('/images/8.2.jpg');"></div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <h1>NATURE</h1>
+
+    <div class="scroll-container">
+        <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+        <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+        <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+        <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+        <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+        <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+      </div>
+
+      <br>
+      <br>
+
+      <h1>LANDSCAPES</h1>
+
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="land1.jpg"  width="1000px" height="450px">
+     
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="land2.jpg" width="1000px" height="450px">
+
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="land3.jpg"  width="1000px" height="450px">
+    
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="land4.jpg"  width="1000px" height="450px">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="land1.jpg"  width="1000px" height="450px">
+          </div>
+
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+
+
+      <br>
+      <br>
+
+      <h1>BIRDS & WILDLIFE</h1>
+
+      <div class="body">
+      <div class="container1">
+        <div class="slider-wrapper">
+          <button id="prev-slide" class="slide-button material-symbols-rounded"><
+          </button>
+          <ul class="image-list">
+            <img class="image-item" src="wildlife5.webp" alt="img-5" />
+            <img class="image-item" src="bird7.jpeg" alt="img-7" />
+            
+            <img class="image-item" src="wildlife 2.jpg" alt="img-2" />
+            <img class="image-item" src="bird8.jpg" alt="img-8" />
+            <img class="image-item" src="wildlife3.jpg" alt="img-3" />
+            <img class="image-item" src="bird3.jpg" alt="img-9" />
+            
+            <img class="image-item" src="wildlife4.jpg" alt="img-4" />
+            <img class="image-item" src="bird10.jpg" alt="img-10" />
+            <img class="image-item" src="wildlife1.jfif" alt="img-1" />
+            <img class="image-item" src="wildlife6.jpg" alt="img-6" />
+            
+           
+          </ul>
+          <button id="next-slide" class="slide-button material-symbols-rounded">>
+          </button>
+        </div>
+        <div class="slider-scrollbar">
+          <div class="scrollbar-track">
+            <div class="scrollbar-thumb"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <br>
+    <br>
+
+    <h1>SCULPTURES</h1>
+
+    <div class="scroll-container">
+        <img src="sculpture2.webp" alt="Cinque Terre" width="600" height="400">
+        <img src="sculture3.jpg" alt="Forest" width="600" height="400">
+        <img src="sculpture4.jpg" alt="Northern Lights" width="600" height="400">
+        <img src="sculpture5.jpg" alt="Mountains" width="600" height="400">
+        <img src="sculpture6.jpg" alt="Northern Lights" width="600" height="400">
+        <img src="sculpture7.webp" alt="Mountains" width="600" height="400">
+      </div>
+
+      <br>
+      <br>
+
+
+    <br>
+    <br>
+
+    <!--footer-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                  <div class="col" id="company">
+                      <img src="images/logo.png" alt="" class="logo">
+                      <p>
+                        We are specialized in designings, make your business a brand.
+                        Try our premium services.
+                      </p>
+                      <div class="social">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+                      </div>
+                  </div>
+
+
+                  <div class="col" id="services">
+                     <h3>Services</h3>
+                     <div class="links">
+                        <a href="https://www.freepik.com/vectors/illustrations">Illustration</a>
+                        <a href="https://www.freepik.com/free-photos-vectors/creatives">Creatives</a>
+                        <a href="https://www.freepik.com/free-photos-vectors/poster-designs">Poster Design</a>
+                        <a href="https://www.freepik.com/free-photos-vectors/creatives">Card Design</a>
+                     </div>
+                  </div>
+
+                  <div class="col" id="useful-links">
+                     <h3>Links</h3>
+                     <div class="links">
+                        <a href="about.html">About</a>
+                        <a href="services.html">Services</a>
+                        <a href="about.html">Our Policy</a>
+                        <a href="contactus.html">Help</a>
+                     </div>
+                  </div>
+
+                  <div class="col" id="contact">
+                      <h3>Contact</h3>
+                      <div class="contact-details">
+                         <i class="fa fa-location"></i>
+                         <p>Chitkara University<br>Punjab</p>
+                      </div>
+                      <div class="contact-details">
+                         <i class="fa fa-phone"></i>
+                         <p>+91-8626957153</p>
+                      </div>
+                  </div>
+            </div>
+
+            <div class="row">
+                  <div class="form">
+                    <form action="">
+                        <input type="text" placeholder="Email here...">
+                        <button><i class="fa fa-paper-plane"></i></button>
+                    </form>
+                  </div>
+            </div>
+
+        </div>
+     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+    <script src="script3.js" defer></script>
+    <script src="script4.js" defer></script>
+    <script src="script5.js"></script>
+
+
+</body>
+</html>
